@@ -1,0 +1,5 @@
+3
+1 2 4
+6
+0 1 2 3 4 5
+COMMENT: simple example with 6 queries

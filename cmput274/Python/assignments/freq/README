@@ -1,0 +1,10 @@
+Name: Darius Fang
+ID: 1570975
+CMPUT 274, Fall  2019
+
+Weekly Assignment 3: Frequency
+Citation: docs.python.org sys library
+
+Running Instructions: Inside the terminal, the the command "python3 freq.py <inputfile>". This is output a sorted word file for the user to read
+
+Notes: We are assumed that the output file destination is either emty or does not exist. It will print out the instructions if the there are too many or too few arguments

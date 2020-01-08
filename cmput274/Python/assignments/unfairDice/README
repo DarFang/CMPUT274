@@ -1,0 +1,13 @@
+Name: Darius Fang
+ID: 1570975
+CMPUT 274, Fall  2019
+
+Weekly Assignment 2: Unfair Dice
+Citation: docs.python.org random module libraries
+
+
+Running Instructions: The Biased rolls inputs a probablilty list with the length of the list, where each index is the porbablilty value. The 's' is used for the random seed value, and 'n' is used for number of rolls. This will return he side value for each roll. The draw histogram inpus the number of sides used and the output of biased rolls, with the width that will be printed. This function will print a histogram of each value rolled. To edit the values, change the values in the "__main__" function.
+
+Notes:
+values of the factrons given should add up to one
+The random module was used to prodce and seed to generate a sequence that can be tested over and over with the same values.

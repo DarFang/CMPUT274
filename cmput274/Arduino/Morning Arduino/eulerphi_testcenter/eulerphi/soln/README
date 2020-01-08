@@ -1,0 +1,14 @@
+Name: Darius Fang
+ID#: 1570975
+CMPUT274 Fall2019
+
+Weekly excersise 7: Euler Phi
+References: gcd_euclid_fast function from eclass gcd_tests.cpp
+Included Files:
+	-README
+	-eulerphi.cpp
+Running instructions
+	In the linux terminal, open the terminal of the folder containing the file eulerphi.cpp. Run the command "g++ eulerphi.cpp -o eulerphi.". The run te command "./ulerphi.". Now type any natural number(Do not include 0), and see the number's phi value, phi over the number value, and the 15 bit test if the number is greater or equal to 2^15. 
+
+Notes and assumptions:
+	The assumtion was the input should be less than 2^32, and natural numbers as before. 15 test basically tests for numbers bewtween 2^14 with 2^15 and finding if the GCD is 1 between the input number and that number, then divides it by 2^14. This value will be similar to phi over the inputed number.

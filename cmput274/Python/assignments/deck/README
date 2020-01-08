@@ -1,0 +1,10 @@
+Name: Darius Fang
+ID: 1570975
+CMPUT 274, Fall  2019
+
+Weekly Assignment 4: Deck
+Citation: docs.python.org sys library
+
+Running Instructions: Inside the terminal, the the command "python3 freq.py <inputfile>". This will play the high card draw and output the winner for each round
+
+Notes: If the deck is not valid, the method will terminate and explain why the deck is invalid

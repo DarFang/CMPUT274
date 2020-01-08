@@ -1,0 +1,5 @@
+both
+one
+both
+both
+zero

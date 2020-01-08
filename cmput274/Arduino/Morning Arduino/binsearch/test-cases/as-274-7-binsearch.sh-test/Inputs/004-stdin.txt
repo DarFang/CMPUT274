@@ -1,0 +1,5 @@
+3
+2 5 7
+1
+8
+COMMENT: simple example with 1 query

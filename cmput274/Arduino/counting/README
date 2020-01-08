@@ -1,0 +1,34 @@
+Name: Darius Fang
+ID#: 1570975
+CMPUT274 Fall2019
+
+Weekly excersise 5: Counting Lights
+
+Included Files:
+	-counting.cpp
+	-README
+	-Makefile
+
+Ascessories:
+	-Aurduino Mega 2560
+	-Breadbaord
+	-wires
+	-3 buttons
+	-4 red LEDS
+	-1 green LED
+	-5 resisters 1k ohms
+
+Wiring Instrudctions:
+	-Wire LEDs from pin 9 to 13, with green LED being pin 11. Connect these with the resistors
+	-Wire increment button to pin 6, decrement button to pin 7, and store button to pin 5. Connect these to ground as well.
+
+Running Instructions:
+	-Connect Arduino Mega 2560 to a PC using an A-B style USB cable. Ensure that the Arduino is connected and using the proper serial port
+	-Run a terminal in the same directory containing counting.cpp and Makefile
+	-Type the command "make upload" to upload the file code to the arduino.
+	-Test out each button on the board
+
+Notes and Assumptions:
+	The increment button adds one to the binary counter and displays it with the lights. The decrement button does the oppisite. Store does two things. Every odd press it stores the value and then turns off the light. Every even press it displays the stored value
+
+	Buttons are to be only pressed one at a time. While hold the button, it will do nothing. The lights change when the person initially presses the button, not when it is released

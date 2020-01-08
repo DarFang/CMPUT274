@@ -1,0 +1,37 @@
+Name: Darius Fang
+ID#: 1570975
+CMPUT274 Fall2019
+
+Weekly excersise 6: Serial Counting Lights
+
+Included Files:
+	-serial_counting.cpp
+	-README
+	-Makefile
+
+Ascessories:
+	-Aurduino Mega 2560
+	-Breadbaord
+	-wires
+	-4 red LEDS
+	-1 green LED
+	-5 resisters 1k ohms
+
+Wiring Instrudctions:
+	-Wire LEDs from pin 9 to 13 with the longer end, with green LED being pin 11. Connect these with the resistors with the short end and then to ground.
+
+Running Instructions:
+	-Connect Arduino Mega 2560 to a PC using an A-B style USB cable. Ensure that the Arduino is connected and using the proper serial port
+	-Run a terminal in the same directory containing serial_counting.cpp and Makefile
+	-Type the command "make upload" to upload the file code to the arduino.
+	-Type the command "serial-mon" to use the keybaord inputs
+
+
+Notes and Assumptions:
+	This arduino get the input of the user, adds to the total, and displays the output in binary through LEDs from the breadboard.
+
+	When the user inputs a key, they will recive 3 lines of text on the serial-mon. The first line tells the user what they input, the second line shows the total, and the third line shows the total in binary, from least significant to most.
+
+	The user is suppose to only input either digits or character values from a to f. It is not case sensitive. If the user inputs Enter/Return or Space, the total goes back to 0, and the first line of text says "Reset". If the user inputs anything else, then the first line of text says "Invalid input", and does not change the total. Please note that the user should not input any arrow keys as arrow key input is different.
+
+	
