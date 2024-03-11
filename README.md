@@ -8,3 +8,6 @@ Introduction to Tangible Computing I. Development is done using the Linux operat
 
 ## Features 
 - Key concepts of procedural programming, basic algorithm design and analysis (lists, queues, trees, sorting, searching) are learned by solving a series of problems using Python.
+
+## Links
+- Checkout my CMPUT 275 Projects with the link: https://github.com/orgs/CMPUT-275/repositories
